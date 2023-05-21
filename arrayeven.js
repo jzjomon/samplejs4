@@ -5,7 +5,7 @@ const a=[];
 let b=0;
 for(let i=0;i<num;i++){
     a[i]=readlineSync.question("");
-    if(i%2==0){
+    if(a[i]%2==0){
         b=b+1;
     }
 }
